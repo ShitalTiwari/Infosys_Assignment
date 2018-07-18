@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		4972C68720FEF83400B61DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972C68620FEF83400B61DD8 /* AppDelegate.swift */; };
-		4972C68920FEF83400B61DD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972C68820FEF83400B61DD8 /* ViewController.swift */; };
 		4972C68C20FEF83400B61DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4972C68A20FEF83400B61DD8 /* Main.storyboard */; };
 		4972C68E20FEF83600B61DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4972C68D20FEF83600B61DD8 /* Assets.xcassets */; };
 		4972C69120FEF83600B61DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4972C68F20FEF83600B61DD8 /* LaunchScreen.storyboard */; };
 		4972C69C20FEF83600B61DD8 /* Infosys_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972C69B20FEF83600B61DD8 /* Infosys_AssignmentTests.swift */; };
 		4972C6A720FEF83600B61DD8 /* Infosys_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972C6A620FEF83600B61DD8 /* Infosys_AssignmentUITests.swift */; };
+		4972C6B920FEFD6500B61DD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972C6B820FEFD6500B61DD8 /* ViewController.swift */; };
+		4972C6BD20FEFD8A00B61DD8 /* CommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972C6BA20FEFD8A00B61DD8 /* CommonMethods.swift */; };
+		4972C6BE20FEFD8A00B61DD8 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972C6BB20FEFD8A00B61DD8 /* APICall.swift */; };
+		4972C6BF20FEFD8A00B61DD8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972C6BC20FEFD8A00B61DD8 /* Constants.swift */; };
+		4972C6C120FEFDAF00B61DD8 /* ImageContainerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972C6C020FEFDAF00B61DD8 /* ImageContainerTableViewCell.swift */; };
 		6C955F60C8EED0EF067F0A8E /* Pods_Infosys_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6294A898EE1B6C32E3A0D8BC /* Pods_Infosys_Assignment.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +41,6 @@
 /* Begin PBXFileReference section */
 		4972C68320FEF83400B61DD8 /* Infosys_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Infosys_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4972C68620FEF83400B61DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4972C68820FEF83400B61DD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4972C68B20FEF83400B61DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4972C68D20FEF83600B61DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4972C69020FEF83600B61DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,6 +51,12 @@
 		4972C6A220FEF83600B61DD8 /* Infosys_AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Infosys_AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4972C6A620FEF83600B61DD8 /* Infosys_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infosys_AssignmentUITests.swift; sourceTree = "<group>"; };
 		4972C6A820FEF83600B61DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4972C6B420FEFC8600B61DD8 /* Infosys_Assignment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Infosys_Assignment-Bridging-Header.h"; sourceTree = "<group>"; };
+		4972C6B820FEFD6500B61DD8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4972C6BA20FEFD8A00B61DD8 /* CommonMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonMethods.swift; sourceTree = "<group>"; };
+		4972C6BB20FEFD8A00B61DD8 /* APICall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		4972C6BC20FEFD8A00B61DD8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4972C6C020FEFDAF00B61DD8 /* ImageContainerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageContainerTableViewCell.swift; sourceTree = "<group>"; };
 		589F7802AB554318A41863D8 /* Pods-Infosys_Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Infosys_Assignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Infosys_Assignment/Pods-Infosys_Assignment.release.xcconfig"; sourceTree = "<group>"; };
 		6294A898EE1B6C32E3A0D8BC /* Pods_Infosys_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Infosys_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8930AFE147CE16C1C2AF33E /* Pods-Infosys_Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Infosys_Assignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Infosys_Assignment/Pods-Infosys_Assignment.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +108,7 @@
 		4972C67A20FEF83400B61DD8 = {
 			isa = PBXGroup;
 			children = (
+				4972C6B420FEFC8600B61DD8 /* Infosys_Assignment-Bridging-Header.h */,
 				4972C68520FEF83400B61DD8 /* Infosys_Assignment */,
 				4972C69A20FEF83600B61DD8 /* Infosys_AssignmentTests */,
 				4972C6A520FEF83600B61DD8 /* Infosys_AssignmentUITests */,
@@ -121,8 +131,10 @@
 		4972C68520FEF83400B61DD8 /* Infosys_Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				4972C6B720FEFCF000B61DD8 /* Controller */,
+				4972C6B620FEFCEB00B61DD8 /* Model */,
+				4972C6B520FEFCE100B61DD8 /* ViewModel */,
 				4972C68620FEF83400B61DD8 /* AppDelegate.swift */,
-				4972C68820FEF83400B61DD8 /* ViewController.swift */,
 				4972C68A20FEF83400B61DD8 /* Main.storyboard */,
 				4972C68D20FEF83600B61DD8 /* Assets.xcassets */,
 				4972C68F20FEF83600B61DD8 /* LaunchScreen.storyboard */,
@@ -147,6 +159,32 @@
 				4972C6A820FEF83600B61DD8 /* Info.plist */,
 			);
 			path = Infosys_AssignmentUITests;
+			sourceTree = "<group>";
+		};
+		4972C6B520FEFCE100B61DD8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4972C6C020FEFDAF00B61DD8 /* ImageContainerTableViewCell.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4972C6B620FEFCEB00B61DD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4972C6BB20FEFD8A00B61DD8 /* APICall.swift */,
+				4972C6BA20FEFD8A00B61DD8 /* CommonMethods.swift */,
+				4972C6BC20FEFD8A00B61DD8 /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4972C6B720FEFCF000B61DD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4972C6B820FEFD6500B61DD8 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,7 +361,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4972C68920FEF83400B61DD8 /* ViewController.swift in Sources */,
+				4972C6BF20FEFD8A00B61DD8 /* Constants.swift in Sources */,
+				4972C6BD20FEFD8A00B61DD8 /* CommonMethods.swift in Sources */,
+				4972C6B920FEFD6500B61DD8 /* ViewController.swift in Sources */,
+				4972C6C120FEFDAF00B61DD8 /* ImageContainerTableViewCell.swift in Sources */,
+				4972C6BE20FEFD8A00B61DD8 /* APICall.swift in Sources */,
 				4972C68720FEF83400B61DD8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,12 +543,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9PJT9583SS;
 				INFOPLIST_FILE = Infosys_Assignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.infosysAssignment.Infosys-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Infosys_Assignment-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -520,12 +564,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9PJT9583SS;
 				INFOPLIST_FILE = Infosys_Assignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.infosysAssignment.Infosys-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Infosys_Assignment-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
